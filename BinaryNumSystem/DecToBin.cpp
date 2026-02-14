@@ -1,8 +1,10 @@
 #include<iostream>
 // #include<cmath>
 using namespace std;
+int decTobinary(int decNum);
 int main(){
-    // int n=2;
+    //MY METHOD
+    // int n=71;
     // int original=n;
     // int sum=0;
     // int j=0;
@@ -16,18 +18,19 @@ int main(){
 //         sum/=10;
 //     }
 //     cout<<"Decimal number "<<original<<" into Binary number "<<n<<endl;
-       
-    int n=2;
-    for(int i=1;i<10;i++){
-        int sum=0,pow=1;
-        int temp=n;
-        while(temp>0){
-        sum+=temp%2*pow;
-        temp/=2;
-        pow*=10;
-       }
-       cout<<sum<<endl;
-       n++;
+    //Teacher's Method
+    for(int i=1;i<=10;i++){
+        cout<<decTobinary(i)<<endl;
     } 
     return 0;
+}
+
+int decTobinary(int decNum){
+    int sum=0,pow=1;
+        while(decNum>0){
+        sum+=decNum%2*pow;
+        decNum/=2;
+        pow*=10;
+       }
+       return sum;
 }
