@@ -1,5 +1,5 @@
 #include<iostream>
-
+using namespace std;
 int main(){
     int num[5]={45,8,23,-6,90};
     int sz=sizeof(num)/sizeof(int);
@@ -16,6 +16,6 @@ int main(){
             largest=i;
         }
     }
-     std::cout<<largest<<"\n";
+     cout<<largest<<"\n";
     return 0;
 }
