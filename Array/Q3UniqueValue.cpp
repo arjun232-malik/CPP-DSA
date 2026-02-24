@@ -12,20 +12,14 @@ void printUnique(int arr[], int n) {
             }
         }
 
-        if (!isDuplicate) {
+        if (isDuplicate==false) {
             cout << arr[i] << " ";
         }
     }
+    cout<<endl;
 }
 
 int main() {
-    // int num[]={1,2,3,1,2,3,4};
-    // int sz=sizeof(num)/sizeof(int);
-
-    // for(int i=0;i<sz;i++){
-        
-    // }
-
     int arr[] = {1, 2, 2, 3, 4, 4, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
 
