@@ -19,7 +19,6 @@ void intersection(int num1[],int num[],int sz){
         for(int j=0;j<=i;j++){
             if(num1[i]==num[j]){
                 cout<<num[j]<<endl;
-                break;
             }
         }
     }
