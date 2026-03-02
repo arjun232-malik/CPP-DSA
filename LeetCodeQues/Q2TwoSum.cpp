@@ -11,7 +11,7 @@ int main(){
             for(int j=i+1;j<sz;j++){
                 if((nums[i]+nums[j])==target){
                     indx1=i;
-                    indx2=j;
+                    indx2=j;    
                     break;
                 }else{
                     continue;
