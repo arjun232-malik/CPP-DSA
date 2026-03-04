@@ -5,7 +5,6 @@ int main(){
 //    vector<int> nums={1};
 //    int sz=nums.size();
 //    int sum=0;
-//    int temp=0;
    
 //    for(int i=0;i<sz;i++){ 
 //        sum^=nums[i];
