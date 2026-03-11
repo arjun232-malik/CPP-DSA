@@ -3,6 +3,7 @@
 #include<vector>
 using namespace std;
 int main(){
+    // BRUTE FORCE APPRAOCH
     vector<int> nums={1,1,2};
         int k=nums.size();
         int i=0;
